@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@duckdb/node-api": "^1.5.5-r.4",
+    "dotenv": "^17.4.2",
+    "duckdb": "^1.4.4",
+    "ollama": "^0.6.3",
+    "redis": "^6.2.1",
+    "tesseract.js": "^7.0.0",
+    "uuid": "^14.0.2"
+  },
+  "name": "documenter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
